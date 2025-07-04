@@ -1,0 +1,122 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0B1D51;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #3949AB;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        nav ul li {
+            cursor: pointer;
+            margin: 30px;
+            color: #ffffff;
+        }
+
+        .left {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
+
+        }
+
+        .leftSection {
+            width: 30%;
+            font-size: 28px;
+
+
+        }
+
+        .right-section {
+            background-color: #218b80;
+            width: 40%;
+        }
+
+        .myname {
+            color: #DDA853;
+            font-weight: bold;
+        }
+
+        #element {
+            color: #DDA853;
+            font-weight: bold;
+        }
+
+        .skillicons {
+            padding: 20px;
+        }
+
+        .skill-item {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .skills {
+            padding: 30px;
+            margin-top: 60px;
+            margin-left: 50px;
+
+        }
+
+        .skill-item span {
+            margin-left: 40px;
+        }
+
+        .projects {
+            margin-left: 50px;
+            padding: 30px;
+        }
+
+        .projects p {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .projects li {
+            margin: 15px;
+        }
+
+        #contact {
+            padding: 30px;
+            margin-left: 50px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+
